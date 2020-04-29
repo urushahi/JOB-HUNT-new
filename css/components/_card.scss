@@ -1,0 +1,38 @@
+.card{
+    &__lg{
+        position: relative;
+    }
+    &--date{
+        position: absolute;
+        top:48%;
+        left:50%;
+        transform:translate(-48%,-50%);
+        font-size: 13px;
+        color: $bg_color;
+        background-color: $white;
+        border-radius: 10px;
+        width: 260px;
+        padding: .75rem 0;
+        @include respond(xl){
+            top:37%;
+        }
+        @include respond(lg){
+            top:53%;
+        }
+        @include respond(md){
+               top: 66%; 
+        }
+        @include respond(sm){
+            top:52%;
+        }
+        @include respond(phone){
+            top:39%;
+    
+        }
+
+    }
+    .comment::before{
+        content:"|";
+
+    }
+}

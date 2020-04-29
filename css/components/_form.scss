@@ -1,0 +1,29 @@
+.form {
+  &-group {
+    &-icon {
+      position: relative;
+      .form-control {
+        padding: 1.875rem 2rem;
+        font-size: 14px;
+        color: $black;
+        background-color: $white;
+      }
+
+      i {
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $bg_color;
+      }
+
+      .custom-select {
+        height: 3.75rem;
+        font-size: 14px;
+        background: white;
+        padding-left: 2rem;
+        color: $font_color;
+      }
+    }
+  }
+}

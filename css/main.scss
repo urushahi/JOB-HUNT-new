@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./abstacts/mixins";
+@import "./abstacts/variable";
+@import "./base/typography";
+@import "./components/buttons";
+@import "./components/arrow";
+@import "./layouts/overlay";
+@import "./layouts/header";
+@import "./components/form";
+@import "./layouts/section";
+@import "./layouts/categories";
+@import "./layouts/resume";
+@import "./layouts/jobs";
+@import "./layouts/slider";
+@import "./layouts/customer";
+@import "./layouts/careers";
+@import "./layouts/contact";
+@import "./layouts/footer";
+@import "./components/card";
+@import "./components/modal";
+
+
+body {
+  margin: 0;
+  font-family: $secondary_font;
+}
+
+
+
+
+
+
+

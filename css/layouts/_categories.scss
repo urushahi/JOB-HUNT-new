@@ -1,0 +1,45 @@
+.categories {
+  position: relative;
+  .card {
+    text-align: center;
+    border: 0;
+    transition: all ease-in 0.2s;
+
+    .icon {
+      margin-top: 1.875rem;
+      margin-bottom: 1.25rem;
+    }
+    i {
+      font-size: 3rem;
+      color: #8b91dd;
+      transition: all ease-in 1s;
+    }
+    p {
+      color: $bg_color;
+      margin-top: 3px;
+      margin-bottom: 1.875rem;
+    }
+    // a:hover {
+    //   i {
+       
+    //     color: $bg_color;
+    //   }
+    // }
+    &:hover i {
+      color: $bg_color;
+    }
+    &:hover{
+      box-shadow:0px 0px 25px #0000001a;
+      
+    }
+  }
+  .icon--desc{
+    h4{
+      color:$black;
+    }
+  }
+  
+}
+
+
+  

@@ -1,0 +1,91 @@
+.slider {
+  background-image: url("../../assets/images/parallax2.jpg");
+  //   background-color: #8b91dd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding:0;
+  .section--heading {
+    //   padding-top: 3rem;
+    h2 {
+      color: $white;
+    }
+    h5 {
+      color: $white;
+    }
+  }
+
+  .slickslider {
+    
+    h4 {
+      display: inline;
+    }
+    h5 {
+      color: #888888;
+      text-align: left;
+      display: inline-block;
+      margin-bottom: 0;
+      padding-left: 0.5rem;
+      @include respond(lg){
+        display:block;
+        padding-left: 0;
+      }
+      @include respond(sm){
+        display: inline-block;
+      }
+    }
+    p {
+      color: #888888;
+      line-height: 24px;
+    }
+  }
+  .slick-slide {
+    margin: 1rem;
+  }
+  .slick-dots li button {
+    border: 2px solid white;
+    border-radius: 50%;
+    color: $white;
+  }
+  .slick-dots li button:before{
+    display: none;
+  } 
+  .slick-dots li.slick-active button:before {
+    display: block;
+    color: white;
+  }
+  .card {
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 14px;
+    @include respond(phone){
+      margin-top: 2.5rem;
+    }
+    .card--title {
+      margin: 3.5rem 0 1.25rem;
+    }
+    .card--image {
+      width: 90px;
+      position: absolute;
+      top: -17%;
+      left: 12%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+    .quote {
+      position: absolute;
+      bottom: 64%;
+      right: 13%;
+      font-family: $primary_font;
+      font-size: 100px;
+      font-weight: 500;
+      color: rgb(139, 145, 221);
+      transform: rotate(180deg);
+    }
+  }
+}

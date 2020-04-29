@@ -1,0 +1,62 @@
+.btn {
+  transition: all ease-in 0.5s;
+
+  &--jobs {
+    color: #8b91dd;
+    border: 1px solid #8b91dd;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 0.5rem 1rem;
+    width: 7rem;
+  }
+  &--part {
+    @extend .btn--jobs;
+    color: #7dc246;
+    border-color: #7dc246;
+  }
+
+  &--free {
+    @extend .btn--jobs;
+    color: #fb236a;
+    border-color: #fb236a;
+  }
+
+  &--temp {
+    @extend .btn--jobs;
+    color: #26ae61;
+    border-color: #26ae61;
+  }
+
+  &--bordered {
+    font-size: 14px;
+    border: 1px solid $white;
+    color: $white;
+    background-color: transparent;
+    &:hover {
+      background-color: $white;
+      color: black;
+    }
+  }
+  &--section {
+    border: solid 2px $bg_color;
+    border-radius: 10px;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    font-size: 14px;
+    &:hover {
+      color: #ffffff;
+      background-color: $bg_color;
+    }
+  }
+
+  &--account {
+    @extend .btn--section;
+    border-color: $white;
+    color: $white;
+    margin-top: 2.5rem;
+    &:hover {
+      background-color: $white;
+      color: $bg_color;
+    }
+  }
+}

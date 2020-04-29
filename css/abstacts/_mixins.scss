@@ -1,0 +1,27 @@
+@mixin respond($breakpont) {
+  @if ($breakpont== "phone") {
+    @media screen and (max-width: 424px) {
+      @content;
+    }
+  }
+  @if ($breakpont== "sm") {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  @if ($breakpont== "md") {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if ($breakpont== "lg") {
+    @media screen and (max-width: 992px) {
+      @content;
+    }
+  }
+  @if ($breakpont== "xl") {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+}

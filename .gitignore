@@ -1,0 +1,26 @@
+#Visual Studio files
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.ssms_suo
+*.sqlsuo
+*.pdb
+*.bak
+*.user
+#Visual Studio conversion files
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.xml
+UpgradeLog*.htm
+#OS
+[Tt]humbs.db
+.*~
+*~
+#Subversion
+.svn
+#Dependency directories
+node_modules
+bower_components
+packages
+#Others

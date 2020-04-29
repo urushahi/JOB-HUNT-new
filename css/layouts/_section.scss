@@ -1,0 +1,16 @@
+section {
+  padding: 4rem 4rem;
+
+  @include respond(lg) {
+    padding: 2rem;
+  }
+  @include respond(md) {
+    padding: 1.5rem;
+  }
+}
+// .section--content{
+//    .card{
+//        position: relative;
+//    }
+//   }
+  

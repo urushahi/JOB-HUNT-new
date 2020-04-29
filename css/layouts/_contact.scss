@@ -1,0 +1,21 @@
+.contact{
+    padding: 2.5rem 0;
+    background-color: #8b91dd;
+    transition: all ease-in 1s;
+    
+    h2{
+        color:white;
+    }
+    h5{
+        color:white;
+        margin: 0;
+    }
+    &:hover{
+        transition: 1s;
+        background-color: $bg_color;
+    }
+    @include respond(sm){
+        padding:2rem;
+    }
+   
+}
