@@ -20,7 +20,6 @@ UpgradeLog*.htm
 #Subversion
 .svn
 #Dependency directories
-node_modules
 bower_components
 packages
 #Others
